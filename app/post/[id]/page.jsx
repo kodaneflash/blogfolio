@@ -9,12 +9,12 @@ import Link from "next/link";
 import { format, parseISO } from "date-fns";
 
 const getSinglePost = async (id) => {
-  let res = await fetch(`http://localhost:3000/api/email/${id}`);
+  let res = await fetch(`http://devblock.pro/api/email/${id}`);
   return res.json();
 };
 
 const getData = async () => {
-  const res = await fetch(`http://localhost:3000/api/email`, {
+  const res = await fetch(`http://devblock.pro/3000/api/email`, {
     cache: "no-store",
   });
 
