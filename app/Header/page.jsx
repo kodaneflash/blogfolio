@@ -123,7 +123,7 @@ export const projects = [
   {
     title: "Read CV",
     icon: <PiReadCvLogoThin />,
-    link: "https://github.com/Joscriptt",
+    link: "https://github.com/kodaneflash",
   },
 
   // ...rest of the projects
@@ -341,7 +341,7 @@ function Headerpage() {
               </AnimatePresence>
 
               <div className="leading-5 relative left-12 w-full">
-                <h4 className="font-PoppinsMedium">JoScript full</h4>
+                <h4 className="font-PoppinsMedium">James full</h4>
                 <AnimatePresence>
                   <motion.div
                     key={item[index].id}

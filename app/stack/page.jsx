@@ -149,7 +149,7 @@ function Stackpage() {
             </span>
 
             <p className="text-[15px] dark:text-neutral-400/70 mt-2">
-              Sign up to the Joscript Newsletter to get tons of valuable
+              Sign up to the James Newsletter to get tons of valuable
               information on how to launch, grow, and monetize your design
               business. Sent out every three weeks right into your inbox!
             </p>

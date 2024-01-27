@@ -15,7 +15,7 @@ function page() {
           </li>
           {/* <div className="w-1 h-1 hidden lg:block rounded-full bg-[#40f877]" /> */}
           <li>
-            Made by <span className="text-neutral-400"> JoScript</span>
+            Made by <span className="text-neutral-400"> James</span>
           </li>
           {/* <div className="w-1 h-1 hidden lg:block rounded-full bg-[#40f877]" /> */}
 

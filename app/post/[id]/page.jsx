@@ -101,7 +101,7 @@ async function page({ params }) {
                     className="w-8 h-8 object-cover border-[#f02c56] border-2 rounded-full  "
                   />
                   <div className="ml-2 pr-4">
-                    <p className="text-xs font-PoppinsMedium">JoScript</p>
+                    <p className="text-xs font-PoppinsMedium">James</p>
                     <p className="text-xs font-light">@{project.tags}</p>
                   </div>
                 </div>
