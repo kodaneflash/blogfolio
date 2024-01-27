@@ -22,7 +22,7 @@ async function page() {
   return (
     <div className=" max-w-5xl md:max-w-3xl lg:max-w-[650px]  lg:mx-auto mx-auto mt-24 p-5">
       <h1 className="text-4xl font-PoppinsBlack font-bold  text-sm:text-4xl xl:text-5xl  bg-clip-text text-transparent bg-gradient-to-r  from-neutral-500 to-[#382504] dark:to-neutral-100 text-neutral-200  ">
-        Joscript Website Templates
+        James Website Templates
       </h1>
 
       <svg
