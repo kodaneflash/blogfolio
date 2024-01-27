@@ -42,11 +42,11 @@ function ImageAnimation({
   const next = () =>
     setCurr((curr) => (curr === single.image.length - 1 ? 0 : curr + 1));
 
-  useEffect(() => {
-    if (!autoSlide) return;
-    const slideInterval = setInterval(next, autoSlideInterval);
-    return () => clearInterval(slideInterval);
-  }, [autoSlide, autoSlideInterval]);
+ useEffect(() => {
+  if (!autoSlide) return;
+  const slideInterval = setInterval(next, autoSlideInterval);
+  return () => clearInterval(slideInterval);
+}, [autoSlide, autoSlideInterval]);
 
   return (
     <div className="">
