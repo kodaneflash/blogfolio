@@ -37,17 +37,17 @@ import Image from "next/image";
 let item = [
   {
     id: 1,
-    content: "Solopreneur 🎊",
+    content: "Founder of 3 Startups",
     imgURL: "/img/sheep.jpg",
   },
   {
     id: 2,
-    content: "Software Dev 🔗",
+    content: "Software Engineer",
     imgURL: "/img/lion.jpg",
   },
   {
     id: 3,
-    content: "Web Dev 🚀",
+    content: "IndieHacker Enthusiast",
     imgURL: "/img/gorilla.jpg",
   },
 ];
@@ -341,7 +341,7 @@ function Headerpage() {
               </AnimatePresence>
 
               <div className="leading-5 relative left-12 w-full">
-                <h4 className="font-PoppinsMedium">James full</h4>
+                <h4 className="font-PoppinsMedium">James Hernandez</h4>
                 <AnimatePresence>
                   <motion.div
                     key={item[index].id}
